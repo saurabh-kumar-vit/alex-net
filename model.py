@@ -1,5 +1,6 @@
 import torch.nn as nn
 
+# Model of the AlexNet
 class AlexNet(nn.Module):
 	def __init__(self, num_classes=2):
 		super(AlexNet, self).__init__()
